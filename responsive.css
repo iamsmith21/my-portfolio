@@ -1,85 +1,40 @@
-@media only screen and (max-width: 1040px) {
-    /* Add your responsive styles here */
-    .header {
-      flex-direction: column;
-      align-items: center;
+@media only screen and (max-width:1000px){
+    .hero-container{
+        flex-direction: column;
     }
-  
-    .left-side, .right-side {
-      flex-direction: column;
-      align-items: center;
+
+    .hero-left p{
+        width: 380px;
     }
-  
-    .hero-container {
-      flex-direction: column;
-      padding: 50px 10px 0px;
+
+    .hero-right img{
+        width: 500px;
     }
-  
-    .hero-container h1 {
-      text-align: center;
-      font-size: 36px;
+
+    .hero-left button{
+        align-self: center;
     }
-  
-    .hero-container p {
-      text-align: center;
+}
+
+@media only screen and (max-width:500px){
+    .hero-container h1{
+        font-size: 40px;
     }
-  
-    .hero-left {
-      width: 100%;
-      text-align: center;
-      padding: 0 10px;
+
+    .hero-right img{
+        width:300px;
+        
     }
-  
-    .hero-container button {
-      width: 150px;
-      margin: 20px auto;
+
+    .hero-left p{
+        width:340px;
     }
-  
-    .hero-right img {
-      width: 100%;
-      height: auto;
-      border-radius: 0;
+
+    .cta{
+        gap: 20px;
     }
-  
-    .body-container {
-      padding: 25px;
+
+    .hero-left button{
+        align-self: center;
     }
-  
-    .body-container h1 {
-      font-size: 28px;
-      text-align: center;
-    }
-  
-    .cards {
-      justify-content: center;
-    }
-  
-    .card {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .quote-container {
-      padding: 100px 25px;
-    }
-  
-    .quote-container .credit {
-      padding-left: 0;
-      text-align: center;
-    }
-  
-    .cta-container {
-      padding: 50px 0;
-    }
-  
-    .cta {
-      flex-direction: column;
-      width: 100%;
-      height: auto;
-    }
-  
-    .cta button {
-      width: 150px;
-    }
-  }
-  
+}

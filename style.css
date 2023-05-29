@@ -1,7 +1,3 @@
-@font-face {
-    font-family: 'MotionPicture';
-    src: url(./font/MotionPicture_PersonalUseOnly.ttf);
-}
 *{
     margin:0;
     padding: 0;
@@ -47,23 +43,23 @@ font-family: 'Roboto', arial;
 
 .hero-container{
     display: flex;
-    flex:1;
     justify-content: center;
     align-items: center;
-    padding: 100px 10px 0px 0px;
+    padding: 20px 0px 50px;
     background-color: #1f2937;
 }
 
 .hero-container h1 {
-text-align: left;
+text-align: center;
 font-size: 48px;
 font-weight: bolder;
 color: #f9faf8;
 
+
 }
 
 .hero-container p{
-    text-align: left;
+    text-align: center;
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -79,6 +75,7 @@ color: #f9faf8;
 .hero-left p{
     width: 400px;
 }
+
 .hero-container button{
    display: block;
    width: 100px;
@@ -143,9 +140,13 @@ color: #f9faf8;
 }
 
 .quote-container .credit{
+
     font-weight: bolder;
     font-size: 30px;
-    padding-left: 450px ;
+    color: red;
+    padding-left: 40px ;
+    justify-content: center;
+
 }
 
 .cta-container{
@@ -160,7 +161,7 @@ color: #f9faf8;
     gap: 40px;
     align-items: center;
     justify-content: center;
-    width: 650px;
+    width: 600px;
     height: 90px;
     border-radius: 10px;
     margin-top: 25px;
